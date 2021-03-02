@@ -1,4 +1,4 @@
-# Stock Tracker
+# Stock Tracker - React JS
 
 ### Install dependencies
 
