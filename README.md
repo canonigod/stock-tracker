@@ -1,4 +1,4 @@
-# stock-tracker
+# Stock Tracker
 
 ### Install dependencies
 
