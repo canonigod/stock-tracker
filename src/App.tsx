@@ -63,20 +63,20 @@ const App = () => {
                 ? <Copy>Search stock by Ticker Symbol.</Copy>
 
                 :  <Stocks 
-                    name={state.data.symbol} 
-                    companyName={state.data.companyName} 
+                    name={state.data.symbol}
+                    companyName={state.data.companyName}
                     price={state.data.iexAskPrice}
                     priceChange1={state.data.iexClose}
                     priceChange2={state.data.previousClose}
                     open={state.data.iexOpen}
-                    high={state.data.iexRealtimePrice} 
+                    high={state.data.iexRealtimePrice}
                     low={state.data.latestPrice}
                     mktCap={state.data.marketCap}
                     peRatio={state.data.peRatio} 
                     avgVolume={state.data.avgTotalVolume} 
                     prevClose={state.data.previousClose} 
                     wkHigh={state.data.week52High} 
-                    wkLow={state.data.week52Low} 
+                    wkLow={state.data.week52Low}
                   />            
         }
       </ContainerDiv>
